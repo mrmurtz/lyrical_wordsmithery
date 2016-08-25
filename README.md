@@ -14,12 +14,13 @@ object that contains only those items that the original block returned true.
 
 - Shows the use of select method on an array (numbers 1 to 10) to return even numbers
 
-The array: 'numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]'
+The array: `numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
 
 We can use the .select method to passing a block to check if the number is even:
-'numbers.select{|num| num%2==0}'
+`numbers.select{|num| num%2==0}`
 
-This returns the even numbers between 1-10 `=> [2, 4, 6, 8, 10]`
+This returns the even numbers between 1-10
+`=> [2, 4, 6, 8, 10]`
 
 ### Using select to find words in an array more than 5 letters long
 
@@ -27,12 +28,9 @@ Arsenal FC chant:
 
 *And it's Arsenal,
 
-
 Arsenal FC,
 
-
 We're by far the greatest team,
-
 
 The world has ever seen....*
 
@@ -57,6 +55,12 @@ juicy = an array with words of Biggie - Juicy as items
 ```
 
 Then used the select method to count how many words longer than 5 letters each contained.
+
+```
+def long_words(array)
+  array.select{|word| word.length > 5}.size
+end
+```
 
 Next, I compared this to how many words are in the lyrics to get a final LWP% ...and here are the results:
 
