@@ -1,5 +1,8 @@
 #Lyrical Wordsmithery - using .select method
-### Experimenting using the .select method on arrays
+
+Part of Makers Academy's course is for newbie students to present a method, so by the end of the course we all have seen a bunch of ruby methods being used. I chose the `.select` method, here's a quick note on how I experimented with it.
+
+---
 
 `.select`
 
@@ -13,6 +16,7 @@ object that contains only those items that the original block returned true.
 ### Using select to find even numbers of an array
 
 Let's use the select method on an array (numbers 1 to 10) to return even numbers. Here's a simple array:
+
 `numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
 
 We can use the select method to passing a block to check if the number is even:
