@@ -12,11 +12,10 @@ object that contains only those items that the original block returned true.
 
 ### Using select to find even numbers of an array
 
-- Shows the use of select method on an array (numbers 1 to 10) to return even numbers
+Let's use the select method on an array (numbers 1 to 10) to return even numbers. Here's a simple array:
+`numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
 
-The array: `numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
-
-We can use the .select method to passing a block to check if the number is even:
+We can use the select method to passing a block to check if the number is even:
 `numbers.select{|num| num%2==0}`
 
 This returns the even numbers between 1-10
@@ -26,13 +25,10 @@ This returns the even numbers between 1-10
 
 Arsenal FC chant:
 
-*And it's Arsenal,
-
+_And it's Arsenal,
 Arsenal FC,
-
 We're by far the greatest team,
-
-The world has ever seen....*
+The world has ever seen...._
 
 Here's the chant as an array, using the `.split` method to convert a string to an array splitting where there are ` ` (spaces)
 
