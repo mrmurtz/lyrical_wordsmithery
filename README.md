@@ -26,26 +26,35 @@ This returns the even numbers between 1-10 `=> [2, 4, 6, 8, 10]`
 Arsenal FC chant:
 
 *And it's Arsenal,
+
+
 Arsenal FC,
+
+
 We're by far the greatest team,
+
+
 The world has ever seen....*
 
 Here's the chant as an array, using the `.split` method to convert a string to an array splitting where there are ` ` (spaces)
 
-'afc = ['And', 'its', 'Arsenal', 'FC, 'Arsenal, 'FC', 'We're, 'by, 'far', 'the', 'greatest', 'team', 'the', 'world', 'has', 'ever', 'seen']'
+`afc = ['And', 'its', 'Arsenal', 'FC, 'Arsenal, 'FC', 'We're, 'by, 'far', 'the', 'greatest', 'team', 'the', 'world', 'has', 'ever', 'seen']`
 
 Let's use select to return any words longer than 5 letters:
 
-'afc.select { |x| x.length > 5 }'
+`afc.select { |x| x.length > 5 }`
 
-And the longest words are... `=> ['Arsenal', 'Arsenal', 'greatest']`
+And the longest words are...
+`=> ['Arsenal', 'Arsenal', 'greatest']`
 
 ### Using select to find who's LWP (Lyrical wordsmithery percentage) wins between Wu-tang vs Biggie
 
 I'm gonna measure lyrical mastery using a pretty crap method, basically how many long words can they flow in a track? I created two arrays:
 
-`cream = an array with words of Wu-tang - C.R.E.A.M. as items`
-`juicy = an array with words of Biggie - Juicy as items`
+```
+cream = an array with words of Wu-tang - C.R.E.A.M. as items
+juicy = an array with words of Biggie - Juicy as items
+```
 
 Then used the select method to count how many words longer than 5 letters each contained.
 
@@ -65,6 +74,7 @@ The Notorious B.I.G. - Juicy
 Word count: 677
 Long words in lyrics: 129
 Lyrical wordsmithery: 19.05%
+
 ```
 
 Wu-tang win.
