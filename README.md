@@ -16,21 +16,23 @@ Let's use the select method on an array (numbers 1 to 10) to return even numbers
 `numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
 
 We can use the select method to passing a block to check if the number is even:
+
 `numbers.select{|num| num%2==0}`
 
 This returns the even numbers between 1-10
+
 `=> [2, 4, 6, 8, 10]`
 
 ### Using select to find words in an array more than 5 letters long
 
 Arsenal FC chant:
 
-_And it's Arsenal,
+_"And it's Arsenal,
 Arsenal FC,
 We're by far the greatest team,
-The world has ever seen...._
+The world has ever seen...."_
 
-Here's the chant as an array, using the `.split` method to convert a string to an array splitting where there are ` ` (spaces)
+Here's the chant as an array, using the `.split` method to convert a string to an array splitting where there are `" "` (spaces)
 
 `afc = ['And', 'its', 'Arsenal', 'FC, 'Arsenal, 'FC', 'We're, 'by, 'far', 'the', 'greatest', 'team', 'the', 'world', 'has', 'ever', 'seen']`
 
@@ -39,6 +41,7 @@ Let's use select to return any words longer than 5 letters:
 `afc.select { |x| x.length > 5 }`
 
 And the longest words are...
+
 `=> ['Arsenal', 'Arsenal', 'greatest']`
 
 ### Using select to find who's LWP (Lyrical wordsmithery percentage) wins between Wu-tang vs Biggie
