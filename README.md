@@ -1,8 +1,6 @@
 #Lyrical Wordsmithery - using .select method
 ### Experimenting using the .select method on arrays
 
-###### THE SELECT METHOD
-
 `.select`
 
 - Used for pulling out or *selecting* certain items based on some defined criteria
@@ -12,9 +10,7 @@
 - It will run the block you want on every item of your object and return a new
 object that contains only those items that the original block returned true.
 
-# select_method.rb
-
-# Using select to find even numbers of an array
+### Using select to find even numbers of an array
 
 - Shows the use of select method on an array (numbers 1 to 10) to return even numbers
 
@@ -25,7 +21,7 @@ We can use the .select method to passing a block to check if the number is even:
 
 This returns the even numbers between 1-10 `=> [2, 4, 6, 8, 10]`
 
-# Using select to find words in an array more than 5 letters long
+### Using select to find words in an array more than 5 letters long
 
 Arsenal FC chant:
 
@@ -44,7 +40,7 @@ Let's use select to return any words longer than 5 letters:
 
 And the longest words are... `=> ['Arsenal', 'Arsenal', 'greatest']`
 
-# Using select to find who's LWP (Lyrical wordsmithery percentage) wins between Wu-tang vs Biggie
+### Using select to find who's LWP (Lyrical wordsmithery percentage) wins between Wu-tang vs Biggie
 
 I'm gonna measure lyrical mastery using a pretty crap method, basically how many long words can they flow in a track? I created two arrays:
 
@@ -53,11 +49,10 @@ I'm gonna measure lyrical mastery using a pretty crap method, basically how many
 
 Then used the select method to count how many words longer than 5 letters each contained.
 
-Next, I compared this to how many words are in the lyrics to get a final LWP%
+Next, I compared this to how many words are in the lyrics to get a final LWP% ...and here are the results:
 
-...and here are the results:
-
-`------------------------------------------------------
+```
+------------------------------------------------------
 Wu-tang - C.R.E.A.M.
 
 Word count: 745
@@ -69,7 +64,8 @@ The Notorious B.I.G. - Juicy
 
 Word count: 677
 Long words in lyrics: 129
-Lyrical wordsmithery: 19.05%`
+Lyrical wordsmithery: 19.05%
+```
 
 Wu-tang win.
 
