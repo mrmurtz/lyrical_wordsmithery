@@ -21,22 +21,22 @@ puts ".select!"
 lines
 puts
 
-### Selecting even numbers ###
-#
-# lines
-# puts "numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
-# puts
-# puts "numbers.select{|num| num%2==0}"
-# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# print numbers.select { |num| num%2==0 }
-# puts
-# puts
-# puts "numbers.select{|num| num.even?}"
-# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# print numbers.select { |num| num.even? }
-# puts
-# lines
-# puts
+## Selecting even numbers ###
+
+lines
+puts "numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+puts
+puts "numbers.select{|num| num%2==0}"
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print numbers.select { |num| num%2==0 }
+puts
+puts
+puts "numbers.select{|num| num.even?}"
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print numbers.select { |num| num.even? }
+puts
+lines
+puts
 
 ### AFC chant lyrics ###
 

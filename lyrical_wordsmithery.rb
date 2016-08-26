@@ -17,7 +17,7 @@ end
 
 def lwp(array)
   count = long_words(array)
-  size = array.size
+  size = word_count(array)
   calc = count/size.to_f*100
   lwp = calc.round(2)
 end

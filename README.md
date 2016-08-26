@@ -13,6 +13,8 @@ Part of Makers Academy's course is for newbie students to present a method, so b
 - It will run the block you want on every item of your object and return a new
 object that contains only those items that the original block returned true.
 
+- Ruby Doc link for [.select ](https://ruby-doc.org/core-2.2.0/Array.html#method-i-select)
+
 ### Using select to find even numbers of an array
 
 Let's use the select method on an array (numbers 1 to 10) to return even numbers. Here's a simple array:
@@ -83,6 +85,8 @@ Long words in lyrics: 129
 Lyrical wordsmithery: 19.05%
 
 ```
+
+[lyrical_wordsmithery.rb](./lyrical_wordsmithery.rb)
 
 Wu-tang win.
 
